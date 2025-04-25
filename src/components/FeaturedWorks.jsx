@@ -1,8 +1,8 @@
 import React from 'react';
 import './FeaturedWorks.css';
 const works = [
-  { title: 'Data Analytics', year: '2025', category: 'Word Cloud', description: 'Extracting wordclouds from tweet data.', image: 'src/assets/dataAnalyticsImage.jpg' },
-  { title: 'Software Development', year: '2025', category: 'App Creation', description: 'Creating a functional todo app using Javascript.', image: 'src/assets/softwareDevelopmentImage.jpg' }
+  { title: 'Data Analytics', year: '2025', category: 'Word Cloud', description: 'Extracting wordclouds from tweet data.', image: 'public/dataAnalyticsImage.jpg' },
+  { title: 'Software Development', year: '2025', category: 'App Creation', description: 'Creating a functional todo app using Javascript.', image: 'public/softwareDevelopmentImage.jpg' }
 ];
 const FeaturedWorks = () => {
   return (
